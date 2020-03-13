@@ -24,6 +24,10 @@
 .style_red {
     color: #c81623;
 }
+.clear_fix {
+    display: block;
+    clear: both;
+}
 /* 快速导航栏 */
 .shortcut {
     height: 31px;
@@ -226,4 +230,47 @@
 }
 .footer .mod_service ul li div {
    margin: 8px;
+}
+.mod_help {
+    height: 185px;
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.mod_help dl dt {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.mod_help dl {
+    float: left;
+    width: 200px;
+}
+.mod_help dl:last-child {
+    width: 90px;
+    text-align: center;
+}
+.mod_copyright .links ul {
+    width: 1100px;
+    margin: 20px auto 15px auto;
+}
+.mod_copyright .links ul li {
+    float: left;
+
+} 
+.mod_copyright .links ul::after {
+    content:'';
+    display: block;
+    clear: both;
+}
+.mod_copyright .links ul li a {
+    padding-left: 15px;
+    margin-right: 15px;
+    border-right: 1px solid #ccc;
+}
+.mod_copyright .links ul li:first-child a {
+    border: none;
+}
+.mod_copyright .copyright {
+    text-align: center;
+    line-height: 20px;
 }
