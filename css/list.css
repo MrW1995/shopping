@@ -1,0 +1,45 @@
+.miaosha {
+    position: absolute;
+    top: 40px;
+    left: 190px;
+    padding: 3px 10px 0;
+    border-left: 2px solid #c81623; 
+}
+.nav {
+    overflow: hidden;
+}
+.miaosha_hd {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 47px;   
+}
+.miaosha_hd li {
+    float: left;
+    padding: 0 30px;
+}
+.miaosha_bd {
+    font-size: 16px;
+    line-height: 49px;
+}
+.miaosha_bd li {
+    float: left;
+    padding: 0 20px;
+}
+.miaosha_bd li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+.container_bd ul li {
+    overflow: hidden;
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin-right: 13px;
+    border: 1px solid transparent;
+}
+.container_bd ul li:hover {
+    border: 1px solid #c81623;
+}
+.container_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
